@@ -7,6 +7,7 @@ public class Welcome {
 		System.out.println("Welcome Vishnu Git Test");
 		System.out.println("Welcome Vishnu Git Test for new branch created most/yellaswamy");
 		System.out.println("Teting.......");
+		System.out.println("Teting2.......");
 	}
 
 }
