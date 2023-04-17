@@ -11,6 +11,7 @@ import { AppComponent } from "./appcomponent";
 export class AppModule{
     constructor() {
         console.log("in app constructor")
+        console.log("Tet message")
        }
      
 }
