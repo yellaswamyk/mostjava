@@ -1,4 +1,17 @@
 <p>counter works!</p>
-<app-counter></app-counter>
+count value is :{{count}}<br/>
+<button class="btn btn-primary" (click)=" incrementCount()">Increase</button>
+<button class="btn btn-primary" (click)=" decrementCount()">Decrease</button>
+<input type="text" value="count">
+<input type="number" value="{{count}}"> 
+<input type="number" [value]="count">
+<input type="number"  [(ngModel)]="count">
+
+<ul>
+    <li *ngFor="let num of mynumbers">
+        {{num}}
+    </li>
+</ul>
+
 
 
