@@ -1,6 +1,7 @@
 import {Component} from "@angular/core"
 import { CounterComponent } from "./counter.component";
 import { CommonModule } from "@angular/common";
+import { MathService } from "src/app/services/math.service";
 @Component({
     standalone: true,
     selector: "app-root",
@@ -9,7 +10,8 @@ import { CommonModule } from "@angular/common";
     <button (click)="handleButton()">Show/Hide</button>
     <app-counter *ngIf="show"></app-counter>
 `,
-    imports :[CounterComponent,CommonModule]
+    imports :[CounterComponent,CommonModule],
+    providers:[MathService]
 })
 
 export class AppComponent{
