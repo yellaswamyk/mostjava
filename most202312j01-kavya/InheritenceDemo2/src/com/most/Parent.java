@@ -1,14 +1,14 @@
 package com.most;
 
 public class Parent {
-private int m;
+private int x;
 private int y;
 public Parent() {
 	System.out.println("inside 0 argument constructor");
 }
-public Parent (int x, inty ) {
+public Parent (int x, int y ) {
 	System.out.println("inside 2 arguments constructor");
-	this.m x = x;
+	this. x = x;
 	this.y = y;
 }
 public void parentAssets() {
